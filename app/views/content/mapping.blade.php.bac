@@ -1,0 +1,19 @@
+<h1>This api mash up involves google maps/places API's with where your browser thinks it is.</h1>
+{{View::make('apps.mapping')}}
+<h2>Some more details on what a Web API is.</h2>
+<p>
+	A web Application Programming Interface or API is a interface to a request-response server, typically via JSON or XML, that can be accessed from the internet. Web applications generally mash up multiple APIs and combine them to create a sum greater than its parts.
+</p>
+<p>
+	APIs connect your website with remote services to easily enhance the end user experience by allowing a web site to access extensive databases and enhanced services that will bring your site to the next level.
+</p>
+<footer>
+	<h3>Just some of many the api's and gateways I use,</h3>
+	<img height="48" width="78" src="/icon/worldpay.png" title="gateway connections for worldpay" alt="worldpay"/>
+	<img height="48" width="48" src="/icon/facebook.png" title="api connections for facebook" alt="facebook"/>
+	<img height="48" width="48" src="/icon/google-maps.png" title="api connections for google maps" alt="google maps"/>
+	<img height="48" width="48" src="/icon/paypal.png" title="gateway connections for paypal" alt="paypal"/>
+	<img height="48" width="48" src="/icon/twitter.png" title="api connections for twitter" alt="twitter"/>
+	<img height="48" width="47" src="/icon/api.png" title="api connections for any api" alt="api"/>
+	<img height="48" width="48" src="/icon/google-translate.png" title="api connections for google translate" alt="google translate"/>
+</footer>
