@@ -20,9 +20,9 @@
 	<body>
 		<div id="wrapper">
 			<header>
-				<a href="/" id="icon"><img alt="earthling developments" src="/image/icon.png"/></a>
+				<a href="/home" id="icon"><img alt="earthling developments" src="/image/icon.png"/></a>
 				<div id="menu-box">
-					<h1 > <a href="/">Earthling Developments</a></h1>
+					<h1 > <a href="/home">Earthling Developments</a></h1>
 					<strong><a href="/">Programming the modern inter-web of planet earth.</a></strong>
 				</div>
 				<nav id="menu">
@@ -39,7 +39,7 @@
 			</div>
 			<footer>
 				<div class="g-plusone" data-size="medium" data-href="http://earthling.za.org/"></div>
-				<a id="contact-link" @if($id == 'contact')class="hide-this"@endif href="/contact/">Contact</a>
+				<a id="contact-link" href="/contact">Contact</a>
 			</footer>
 		</div>
 		<script src="https://apis.google.com/js/platform.js" async defer></script>

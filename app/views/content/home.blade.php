@@ -1,7 +1,7 @@
 <h1>Hello and welcome to my small code demo,</h1>
 <strong>Only 2 small demos at the moment but i'll add more when i get some time.</strong>
 
-<div id="home-buttons">
+<nav id="home-buttons">
 	<div>
 	<a href="/mapping"><img width="100%" src="/buttons/mapping.png" title="A google maps and places api mash up." alt="maps mashup"/></a>
 	<p>A google maps and places api mash up.</p>
@@ -10,7 +10,7 @@
 	<a href="/image-proccessing"><img width="100%" src="/buttons/image-proccessing.png" title="Simple image proccessing demo." alt="image proccessing"/></a>
 	<p>Simple image proccessing demo.</p>
 	</div>
-</div>
+</nav>
 
 <footer>
 	<h2>For the icon geeks out there here is some of the technology i use.</h2>

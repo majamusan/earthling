@@ -8,6 +8,7 @@ Route::get('/{id}', function($id) {
 		'plugins' => 'wordpress','drupal,magento,joomla',
 		'mapping' => 'laravel,jquery',
 		'contact' => 'contact',
+		'home' => 'web development',
 	);
 	return (File::isFile('app/views/content/'.$id.'.blade.php') 
 		? View::make('master')->with(array('view'=>View::make('content.'.$id),'id'=>str_replace('-',' ',$id),'kw'=>$kw[$id]))
@@ -15,7 +16,7 @@ Route::get('/{id}', function($id) {
 	);
 });
 // todo with contacting 
-Route::get('/ajax/contact/',array('before'=>'csrf', function() {
+Route::get('/ajax/connect/',array('before'=>'csrf', function() {
 	$rules = array( 'name' => 'required|min:4', 'email' => 'required|min:8', 'message' => 'required|min:17',);
 	$res = Validator::make(Input::all(),$rules);
 	if($res->fails()){
