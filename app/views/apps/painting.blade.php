@@ -18,17 +18,16 @@
 	<div style="width:2%">
 		<strong id="red-value" >18</strong><br />
 		<strong id="green-value" >30</strong><br />
-		<strong id="blue-value" >8</strong><br />
+		<strong id="blue-value" >62</strong><br />
 	</div>
 
 	<div class="pictures">
 		{{Form::radio('pictrue','no',false,array('id'=>'1'))}} <label for="1"><img src="/paintingIcon/1.png" alt="Kiwi van" /></label>
 		{{Form::radio('pictrue','no',false,array('id'=>'3'))}}<label for="3"><img src="/paintingIcon/3.png" alt="Shaolin Statue" /></label>
-		{{Form::radio('pictrue','yes',false,array('id'=>'5'))}}<label class="selected" for="5"><img src="/paintingIcon/5.png" alt="Chinese Wall" /></label>
 		{{Form::radio('pictrue','no',false,array('id'=>'4'))}}<label for="4"><img src="/paintingIcon/4.png" alt="A Boat" /></label>
 		{{Form::radio('pictrue','no',false,array('id'=>'2'))}}<label for="2"><img src="/paintingIcon/2.png" alt="Bronze Statue" /></label>
 		{{Form::radio('pictrue','no',false,array('id'=>'6'))}}<label for="6"><img src="/paintingIcon/6.png" alt="A Piper" /></label>
-		{{Form::radio('pictrue','no',false,array('id'=>'7'))}}<label for="7"><img src="/paintingIcon/7.png" alt="Roof Struts" /></label>
+		{{Form::radio('pictrue','yes',false,array('id'=>'7'))}}<label for="7" class="selected" ><img src="/paintingIcon/7.png" alt="Roof Struts" /></label>
 		{{Form::radio('pictrue','no',false,array('id'=>'8'))}}<label for="8"><img src="/paintingIcon/8.png" alt="Door Knocker" /></label>
 	</div>
 

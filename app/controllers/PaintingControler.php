@@ -8,7 +8,7 @@ class PaintingControler extends Controller {
 	* @return Image HTTP Responce object  || 404 view object
 	*/
 	public function makePainting(){
-		$path = 'public/img/paintings/'.(is_null(Input::get('pictrue'))?5:Input::get('pictrue')).'.png';
+		$path = 'public/img/paintings/'.(is_null(Input::get('pictrue'))?7:Input::get('pictrue')).'.png';
 		if (!File::exists($path)) return View::make('master')->with(array('view'=>View::make('errors.missing'),'id'=>'',404));;
 		$img = Image::make($path)->widen(600);
 		if('true' == Input::get('boxes.grayed')){ $img->greyscale(); }

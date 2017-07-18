@@ -1,8 +1,7 @@
 <h1>Make Contact</h1>
 {{Form::model('contact',array('id'=>'contact'))}}
-	<div class="form-box"> {{Form::label('Name:')}} {{Form::text('name')}} </div>
-	<div class="form-box"> {{Form::label('Email:')}} {{Form::text('email')}} </div>
-	<div class="form-box"> {{Form::label('Message:')}} {{Form::textarea('message')}} </div>
+	<div class="form-box"> {{Form::label('Name')}} {{Form::text('name')}} {{Form::label('Email')}} {{Form::text('email')}} </div>
+	<div class="form-box"> {{Form::label('Message')}} {{Form::textarea('message')}} </div>
 	<footer class="text-left">
 		<div id="contact-loading-box" class="hide-this">
 			<strong id="contact-loading-info"></strong>
