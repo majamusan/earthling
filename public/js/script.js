@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-	$('nav a').click(function(){
+	$('header a, nav a, footer a').click(function(){
 		$('#loading-detail').html('');
 		$('#error-box').html('');
 		$('#loading-box').slideDown();
@@ -16,14 +16,14 @@ jQuery(document).ready(function($){
 			var stateObj = { foo: title };
 			history.pushState(stateObj, title, href);
 			$('#content').html(msg);
-			$('#content,#contact-link').slideDown();
-			if(href== '/apis-and-gateways'){
+			$('#content').slideDown();
+			if(href== '/mapping'){
 				$('#loading-detail').html('Loading google maps');
 				loadScript();
 			}else{
 				$('#content').html(msg);
 				$('#loading-box').slideUp();
-				$('#content,#contact-link').slideDown();
+				$('#content').slideDown();
 			}
 		}).fail(function(){
 			$('#content').html('<strong class="erros">Something went wrong, please reload.</strong>');

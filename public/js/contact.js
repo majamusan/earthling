@@ -4,7 +4,7 @@ jQuery('#contact').click(function(){
 	jQuery('#contact-loading-box').slideDown();
 	jQuery('#contact-loading-info').html(jQuery(this).data('info'));
 	jQuery.ajax({
-		url: '/ajax/contact', dataType:'json', data:jQuery('#contact').serialize(),
+		url: '/ajax/connect', dataType:'json', data:jQuery('#contact').serialize(),
 	}).done(function(msg) {
 		jQuery('#succes-box, #error-box').slideDown();
 		if(msg['pass']=='false'){

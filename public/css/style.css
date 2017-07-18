@@ -91,7 +91,7 @@ footer a,#menu a{display:inline;background:rgb(245,249,249);padding:5px;border-r
 .hand{cursor: pointer;}
 .pop{
 	max-height:5em;overflow:auto;z-index:999;float:left;
-	background:#00ab44;padding:5px;color:white;display:none; width:64%; text-align: start; font-weight: bold; border-radius: 4px;
+	background:#01722e;padding:5px;color:white;display:none; width:64%; text-align: start; font-weight: bold; border-radius: 4px;
 }
 
 /*other pakages */
@@ -99,3 +99,12 @@ footer a,#menu a{display:inline;background:rgb(245,249,249);padding:5px;border-r
 #map-options .slider{width:78%!important;}
 .slider-container{padding: 0.4em;}
 .slider.slider-horizontal .slider-track { border: 1px solid rgb(67,61,110); }
+
+.slider-handle {
+    background-color: #0e90d2;
+    background-image: -moz-linear-gradient(top, #00ab44, #0480be);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#149bdf), to(#0480be));
+    background-image: -webkit-linear-gradient(top, #149bdf, #0480be);
+    background-image: -o-linear-gradient(top, #00ab44, #0480be);
+    background-image: linear-gradient(to bottom, #00ab44, #00ab44) !important;
+}
